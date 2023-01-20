@@ -1,0 +1,23 @@
+.App {
+  font-size: 16px;
+  text-align: center;
+}
+
+#nav {
+  display: flex;
+  padding: 1rem 0 1rem 1rem;
+  background-color: rgb(56, 56, 56);
+}
+
+.navLink {
+  color: azure;
+  font-size: clamp(1rem, 2rem, 3rem);
+  margin-left: 1.5rem;
+  text-decoration: none;
+  opacity: 0.1;
+  transition: opacity 200ms ease;
+}
+
+.navLink:hover {
+  opacity: 1;
+}
